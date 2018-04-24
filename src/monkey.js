@@ -4,15 +4,15 @@ function monkey () {
   // Only change the lines inside of the following functions
   // Lines 7, 11, and 15
   function seeNoEvil (text) {
-    var phrase = phrase + 'See No Evil; '
+    phrase = phrase + 'See No Evil; '
   }
 
   function hearNoEvil (text) {
-    var phrase = phrase + 'Hear No Evil; '
+    phrase = phrase + 'Hear No Evil; '
   }
 
   function speakNoEvil (text) {
-    var phrase = phrase + 'Speak No Evil.'
+    phrase = phrase + 'Speak No Evil.'
   }
 
   seeNoEvil()
@@ -23,3 +23,5 @@ function monkey () {
 }
 
 module.exports = monkey()
+
+//removed var from in front of phrase inside of each of the functions because we were creating a new variable each time instead of updating the original global phrase variable declared at the start of monkey
