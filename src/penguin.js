@@ -1,17 +1,17 @@
 // Yikes, this code doesn't work at all. Make as few changes as possible
 // to the below code to get the correct statement to return.
 
-//Solution
-var penguin = function (name) {
+//Solution1:
+let penguin = function(name) {
     return 'Hello, my name is ' + name;
   }
 
-  //Solution2:
-  // var penguin = function (name) {
-  //   return (function speak () {
-  //     return 'Hello, my name is ' + name
-  //   })();
-  // }
+//Solution2:
+// var penguin = function (name) {
+//   return (function speak () {
+//     return 'Hello, my name is ' + name
+//   })();
+// }
 
 module.exports = penguin
 
